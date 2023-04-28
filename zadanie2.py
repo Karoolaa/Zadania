@@ -1,0 +1,5 @@
+zdanie = input("Podaj zdanie: ")
+slowo = zdanie.split()
+slowo.reverse()
+odwrocone_zdanie = " ".join(slowo)
+print("Odwrocone zdanie: ", odwrocone_zdanie)
